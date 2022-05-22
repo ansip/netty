@@ -590,7 +590,7 @@ public final class SslContextBuilder {
 
     /**
      * Enables DNS name identification during TLS handshake
-     * Has similar effect if call
+     * This method has similar effect as if the following snippet of code has been written
      * <pre>
      * {@code
      * SSLParameters sslParameters = new SSLParameters();
@@ -609,7 +609,7 @@ public final class SslContextBuilder {
 
     /**
      * Set endpoint identification algorithm during TLS handshake
-     * Has similar effect if call
+     * This method has similar effect as if the following snippet of code has been written
      * <pre>
      * {@code
      * SSLParameters sslParameters = new SSLParameters();
